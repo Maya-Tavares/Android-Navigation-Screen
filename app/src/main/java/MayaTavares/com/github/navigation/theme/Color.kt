@@ -1,4 +1,4 @@
-package com.example.navigationbetweenscreen.ui.theme
+package MayaTavares.com.github.navigation.theme
 
 import androidx.compose.ui.graphics.Color
 

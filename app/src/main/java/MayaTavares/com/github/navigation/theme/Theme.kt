@@ -1,6 +1,5 @@
-package com.example.navigationbetweenscreen.ui.theme
+package MayaTavares.com.github.navigation.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme

@@ -1,4 +1,4 @@
-package com.example.navigationbetweenscreen.screens
+package MayaTavares.com.github.navigation.screens
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box

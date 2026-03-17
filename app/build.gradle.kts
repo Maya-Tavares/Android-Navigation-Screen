@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.navigationbetweenscreen"
+    namespace = "com.example.navigation"
     compileSdk = 35
 
     defaultConfig {
