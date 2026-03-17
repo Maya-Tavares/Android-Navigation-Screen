@@ -23,7 +23,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             NavigationbetweenscreenTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    
+
                     val navController = rememberNavController()
 
                     NavHost(
