@@ -11,6 +11,7 @@ import androidx.compose.ui.Modifier
 import MayaTavares.com.github.navigation.screens.LoginScreen
 import MayaTavares.com.github.navigation.screens.MenuScreen
 import MayaTavares.com.github.navigation.screens.PedidosScreen
+import MayaTavares.com.github.navigation.screens.PerfilScreen
 import MayaTavares.com.github.navigation.theme.NavigationbetweenscreenTheme
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -31,16 +32,16 @@ class MainActivity : ComponentActivity() {
                         startDestination = "login",
                     ) {
                         composable(route = "login") {
-                            LoginScreen(modifier = Modifier.padding(innerPadding))
+                            LoginScreen(modifier = Modifier.padding(innerPadding), navController)
                         }
                         composable(route = "menu") {
-                            MenuScreen(modifier = Modifier.padding(innerPadding))
+                            MenuScreen(modifier = Modifier.padding(innerPadding), navController)
                         }
                         composable(route = "pedidos") {
-                            PedidosScreen(modifier = Modifier.padding(innerPadding))
+                            PedidosScreen(modifier = Modifier.padding(innerPadding), navController)
                         }
                         composable(route = "perfil") {
-                            PerfilScreen(modifier = Modifier.padding(innerPadding))
+                            PerfilScreen(modifier = Modifier.padding(innerPadding), navController)
                         }
                     }
                 }
